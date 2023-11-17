@@ -1,1 +1,12 @@
 name = "counter-dapp"
+account_prefix = 'orai'
+derivation_path = '''m/44'/118'/0'/0/0'''
+
+[networks.testnet]
+chain_id = 'Oraichain-testnet'
+network_variant = 'Shared'
+grpc_endpoint = 'http://18.118.151.163:9090'
+rpc_endpoint = 'https://testnet-rpc.orai.io'
+
+[accounts.test]
+mnemonic = 'normal disorder endorse legal kiwi mask behind grunt inherit license battle garment'

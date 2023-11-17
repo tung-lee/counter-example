@@ -12,7 +12,8 @@ const getState = () => {
 };
 
 export const getContractAddr = () => {
-  const contractAddr = getState()?.counter.addresses.default;
+  //const contractAddr = getState()?.counter.addresses.default;
+  const contractAddr = "orai17mq0sg6ey9u2c5pwjjn8l6sppacrrzfucx5r97pcn25d6mjuax2qza6jar";
 
   if (!contractAddr) {
     throw Error("Contract address not found, please check your state file");
